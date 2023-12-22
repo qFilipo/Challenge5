@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 body{
     @include flex-column-center;
@@ -58,7 +59,7 @@ main{
             width: 40rem;
             display: flex;
             padding: 1rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
             background: $neutral2;
             border-radius: 0.5rem;
 
@@ -66,8 +67,12 @@ main{
                 margin-top: 0.5rem;
                 margin-left: 1rem;
                 padding: 1rem;
-                border: 1px solid $neutral4;
+                border: 1px solid $neutral3;
                 border-radius: 0.25rem;
+
+                &:hover{
+                    background: $neutral3;
+                }
             }
 
             .profile-img{
@@ -80,12 +85,15 @@ main{
                 justify-content: space-evenly;
                 align-items: flex-start;
                 margin-left: 1rem;
-                cursor: default;
 
-                .dot{
-                    height: 0.5rem;
-                    width: 0.5rem;
-                    background: $primary1;
+                div{
+                    display: flex;
+                    .dot{
+                        margin: auto;
+                        height: 0.5rem;
+                        width: 0.5rem;
+                        background: $primary1;
+                    }
                 }
 
                 .author-name{
@@ -101,6 +109,14 @@ main{
                     &:hover{
                         color: $primary2;
                     }
+
+                    &:after{
+                        visibility: visible;
+                        content: "●";
+                        color: $primary1;
+                        font-size: 0.75rem;
+                        padding-left: 0.2rem;
+                    }
                 }
 
                 .time-ind{
@@ -110,6 +126,13 @@ main{
 
             .relative-img{
                 height: 2rem;
+                margin: auto 0 auto auto;
+                padding: 0.05rem;
+                border-radius: 0.4rem;
+                border: 0.05rem solid $neutral2;
+                &:hover{
+                    border: 0.05rem solid $neutral3;
+                }
             }
         }
         li:last-child{
