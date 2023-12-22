@@ -13,51 +13,51 @@
     <section class="main-head">
         <div class="notif-box">
           <span class="notif-box_text">Notifications</span>
-          <div id="news-number">3</div>
+          <div id="news-number"></div>
         </div>
-        <span class="main-head_mark"> Mark all as read</span>
+        <span class="main-head_mark" id="mark"> Mark all as read</span>
     </section>
     <section class="main-news">
-      <ul class="main-news_list">
-        <li>
+      <ul class="main-news_list" id="main-list">
+        <li class="list-item">
           <img class="profile-img" src="assets/images/avatar-mark-webber.webp" alt="">
           <div>
             <div class="news-inform">
               <p>
-                <span class="author-name">Mark Webber</span> reacted to your recent post <span class="post-link">My first tournament today!</span>
+                <span class="author-name">Mark Webber</span> reacted to your recent post <span class="post-link">My first tournament today!</span><span class="dot">●</span>
               </p>
               <p class="time-ind">1m ago</p>
             </div>
           </div>
         </li>
-        <li>
+        <li class="list-item">
           <img class="profile-img" src="assets/images/avatar-angela-gray.webp" alt="">
           <div>
             <div class="news-inform">
               <p>
-                <span class="author-name">Angela Gray</span> followed you<span class="post-link"></span>
+                <span class="author-name">Angela Gray</span> followed you<span class="post-link"></span><span class="dot">●</span>
               </p>
               <p class="time-ind">5m ago</p>
             </div>
           </div>
         </li>
-        <li>
+        <li class="list-item">
           <img class="profile-img" src="assets/images/avatar-jacob-thompson.webp" alt="">
           <div>
             <div class="news-inform"> 
               <p>
-                <span class="author-name">Jacob Thompson</span> has joined your group <span class="post-link">Chess Club</span>
+                <span class="author-name">Jacob Thompson</span> has joined your group <span class="post-link">Chess Club</span><span class="dot">●</span>
               </p>
               <p class="time-ind">1day ago</p>
             </div>
           </div>
         </li>
-        <li>
+        <li class="list-item">
           <img class="profile-img" src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
           <div>
             <div class="news-inform">
               <p>
-                <span class="author-name">Rizky Hasanuddin</span> sent you a private message <span class="post-link"></span>
+                <span class="author-name">Rizky Hasanuddin</span> sent you a private message <span class="post-link"></span><span class="dot">●</span>
               </p>
               <p class="time-ind">5days ago</p>
             </div>
@@ -66,35 +66,35 @@
             </div>
           </div>
         </li>
-        <li>
+        <li class="list-item">
           <img class="profile-img" src="assets/images/avatar-kimberly-smith.webp" alt="">
           <div>
             <div class="news-inform">
               <p>
-                <span class="author-name">Kimberly Smith</span> commented on your picture <span class="post-link"></span>
+                <span class="author-name">Kimberly Smith</span> commented on your picture <span class="post-link"></span><span class="dot">●</span>
               </p>
               <p class="time-ind">1week ago</p>
             </div>
           </div>
           <img class="relative-img" src="assets/images/image-chess.webp" alt="">
         </li>
-        <li>
+        <li class="list-item">
           <img class="profile-img" src="assets/images/avatar-nathan-peterson.webp" alt="">
           <div>
             <div class="news-inform">
               <p>
-                <span class="author-name">Nathan Peterson</span> reacted to your recent post <span class="post-link">5 end-game strategies to increase your win rate</span>
+                <span class="author-name">Nathan Peterson</span> reacted to your recent post <span class="post-link">5 end-game strategies to increase your win rate</span><span class="dot">●</span>
               </p>
               <p class="time-ind">2weeks ago</p>
             </div>
           </div>
         </li>
-        <li>
+        <li class="list-item">
           <img class="profile-img" src="assets/images/avatar-anna-kim.webp" alt="">
           <div>
             <div class="news-inform">
               <p>
-                <span class="author-name">Anna Kim</span> left the group <span class="post-link">Chess Club</span>
+                <span class="author-name">Anna Kim</span> left the group <span class="post-link">Chess Club</span><span class="dot">●</span>
               </p>
               <p class="time-ind">2weeks ago</p>
             </div>
@@ -103,5 +103,6 @@
       </ul>
     </section>
   </main>
+  <script src="js/index.js"></script>
 </body>
 </html>

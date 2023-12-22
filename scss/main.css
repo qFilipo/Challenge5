@@ -76,6 +76,9 @@ main {
 .main-head_mark {
   margin: auto 0;
 }
+.main-head_mark:hover {
+  color: hsl(219, 85%, 26%);
+}
 
 .main-news {
   padding: 0 2rem 1rem 2rem;
@@ -113,21 +116,13 @@ main {
   height: 3rem;
 }
 .main-news_list li .news-inform {
-  height: 3rem;
+  height: auto;
+  line-height: 1.5;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
   margin-left: 1rem;
-}
-.main-news_list li .news-inform div {
-  display: flex;
-}
-.main-news_list li .news-inform div .dot {
-  margin: auto;
-  height: 0.5rem;
-  width: 0.5rem;
-  background: hsl(1, 90%, 64%);
 }
 .main-news_list li .news-inform .author-name {
   font-family: "PlusJakartaSans-ExtraBold";
@@ -142,8 +137,7 @@ main {
 .main-news_list li .news-inform .post-link:hover {
   color: hsl(219, 85%, 26%);
 }
-.main-news_list li .news-inform .post-link:after {
-  visibility: visible;
+.main-news_list li .news-inform .dot {
   content: "●";
   color: hsl(1, 90%, 64%);
   font-size: 0.75rem;
@@ -153,7 +147,7 @@ main {
   color: hsl(219, 14%, 63%);
 }
 .main-news_list li .relative-img {
-  height: 2rem;
+  height: 3rem;
   margin: auto 0 auto auto;
   padding: 0.05rem;
   border-radius: 0.4rem;
