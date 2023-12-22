@@ -1,0 +1,42 @@
+$primary1: hsl(1, 90%, 64%);
+$primary2: hsl(219, 85%, 26%);
+
+$neutral1: hsl(0, 0%, 100%);
+$neutral2: hsl(210, 60%, 98%);
+$neutral3: hsl(211, 68%, 94%);
+$neutral4: hsl(205, 33%, 90%);
+$neutral5: hsl(219, 14%, 63%);
+$neutral6: hsl(219, 12%, 42%);
+$neutral7: hsl(224, 21%, 14%);
+
+/*
+- White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%)
+*/
+
+@font-face {
+    font-family: "PlusJakartaSans";
+    src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-ExtraBold";
+    src: url("../assets/fonts/static/PlusJakartaSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "PlusJakartaSans-Medium";
+    src: url("../assets/fonts/static/PlusJakartaSans-Medium.ttf");
+}
+
+@mixin flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

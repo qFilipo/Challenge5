@@ -1,0 +1,145 @@
+/*
+- White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%)
+*/
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "PlusJakartaSans-ExtraBold";
+  src: url("../assets/fonts/static/PlusJakartaSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "PlusJakartaSans-Medium";
+  src: url("../assets/fonts/static/PlusJakartaSans-Medium.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: hsl(210, 60%, 98%);
+  font-family: "PlusJakartaSans", sans-serif;
+  color: hsl(219, 12%, 42%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 100%);
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.main-head {
+  padding: 2.5rem 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-head .notif-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-family: "PlusJakartaSans-ExtraBold";
+  color: hsl(224, 21%, 14%);
+}
+.main-head .notif-box #news-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  width: 2.5rem;
+  font-size: 1rem;
+  background: hsl(219, 85%, 26%);
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+}
+.main-head_mark {
+  margin: auto 0;
+}
+
+.main-news {
+  padding: 0 2rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-news_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+.main-news_list li {
+  width: 40rem;
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: hsl(210, 60%, 98%);
+  border-radius: 0.5rem;
+}
+.main-news_list li .message {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 0.25rem;
+}
+.main-news_list li .profile-img {
+  height: 3rem;
+}
+.main-news_list li .news-inform {
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-left: 1rem;
+  cursor: default;
+}
+.main-news_list li .news-inform .dot {
+  height: 0.5rem;
+  width: 0.5rem;
+  background: hsl(1, 90%, 64%);
+}
+.main-news_list li .news-inform .author-name {
+  font-family: "PlusJakartaSans-ExtraBold";
+  color: hsl(224, 21%, 14%);
+}
+.main-news_list li .news-inform .author-name:hover {
+  color: hsl(219, 85%, 26%);
+}
+.main-news_list li .news-inform .post-link {
+  font-family: "PlusJakartaSans-ExtraBold";
+}
+.main-news_list li .news-inform .post-link:hover {
+  color: hsl(219, 85%, 26%);
+}
+.main-news_list li .news-inform .time-ind {
+  color: hsl(219, 14%, 63%);
+}
+.main-news_list li .relative-img {
+  height: 2rem;
+}
+.main-news_list li:last-child {
+  margin-bottom: 0;
+}/*# sourceMappingURL=main.css.map */
