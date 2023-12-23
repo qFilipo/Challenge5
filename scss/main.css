@@ -39,6 +39,7 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  font-size: 1rem;
 }
 
 main {
@@ -124,8 +125,6 @@ main {
   height: 3rem;
 }
 .main-news_list li .news-inform {
-  height: auto;
-  line-height: 1.5;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
