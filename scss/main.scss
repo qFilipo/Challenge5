@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     cursor: default;
-    font-size: 1rem;
 }
 
 body{
@@ -97,8 +96,7 @@ main{
                 justify-content: space-evenly;
                 align-items: flex-start;
                 margin-left: 1rem;
-
-
+                font-size: 1rem;
 
                 .author-name{
                     font-family: "PlusJakartaSans-ExtraBold";
