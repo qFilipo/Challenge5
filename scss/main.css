@@ -129,6 +129,7 @@ main {
   justify-content: space-evenly;
   align-items: flex-start;
   margin-left: 1rem;
+  line-height: 1.5;
 }
 .main-news_list li .news-inform .author-name {
   font-family: "PlusJakartaSans-ExtraBold";
