@@ -14,7 +14,6 @@ body{
     font-family: "PlusJakartaSans", sans-serif;
     color: $neutral6;
     user-select: none;
-    -webkit-text-size-adjust: 0%;
 }
 
 main{
@@ -59,10 +58,12 @@ main{
 
 .main-news{
     padding: 0 2rem 1rem 2rem;
+    width: 100%;
     @include flex-column-center;
     &_list{
         @include flex-column-center;
         align-items: flex-start;
+        list-style-type: none;
         li{
             width: 40rem;
             display: flex;
@@ -145,3 +146,5 @@ main{
         }
     }
 }
+
+@import "responsive";

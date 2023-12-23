@@ -41,4 +41,14 @@ $neutral7: hsl(224, 21%, 14%);
     align-items: center;
 }
 
--webkit-text-size-adjust: 100%;
+@mixin media-sl{
+    @media screen and (max-width: 425px){
+        @content;
+    }
+}
+
+@mixin media-xs{
+    @media screen and (max-width: 320px){
+        @content;
+    }
+}

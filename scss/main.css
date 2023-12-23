@@ -86,6 +86,7 @@ main {
 
 .main-news {
   padding: 0 2rem 1rem 2rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,6 +98,7 @@ main {
   justify-content: center;
   align-items: center;
   align-items: flex-start;
+  list-style-type: none;
 }
 .main-news_list li {
   width: 40rem;
@@ -168,4 +170,35 @@ main {
 }
 .main-news_list li:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    margin: 0;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .main-head {
+    padding: 2.5rem 1rem;
+  }
+  .main-news {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .main-news li {
+    width: 100%;
+  }
+  .main-news li .profile-img {
+    height: 2.4rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-head {
+    padding: 2.5rem 0.5rem;
+  }
+  .main-news {
+    padding: 0 0.5rem 1rem 0.5rem;
+  }
+  .main-news li {
+    padding: 1rem 0.2rem;
+  }
 }/*# sourceMappingURL=main.css.map */
