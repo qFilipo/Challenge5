@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background: hsl(210, 60%, 98%);
   font-family: "PlusJakartaSans", sans-serif;
   color: hsl(219, 12%, 42%);

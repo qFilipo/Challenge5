@@ -8,7 +8,7 @@
 }
 body{
     @include flex-column-center;
-    height: 100vh;
+    min-height: 100vh;
     background: $neutral2;
     font-family: "PlusJakartaSans", sans-serif;
     color: $neutral6;
