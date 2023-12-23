@@ -36,6 +36,9 @@ body {
   background: hsl(210, 60%, 98%);
   font-family: "PlusJakartaSans", sans-serif;
   color: hsl(219, 12%, 42%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 main {
@@ -75,6 +78,7 @@ main {
 }
 .main-head_mark {
   margin: auto 0;
+  cursor: pointer;
 }
 .main-head_mark:hover {
   color: hsl(219, 85%, 26%);
@@ -108,6 +112,10 @@ main {
   padding: 1rem;
   border: 1px solid hsl(211, 68%, 94%);
   border-radius: 0.25rem;
+  cursor: pointer;
+}
+.main-news_list li .message p {
+  cursor: pointer;
 }
 .main-news_list li .message:hover {
   background: hsl(211, 68%, 94%);
@@ -127,12 +135,14 @@ main {
 .main-news_list li .news-inform .author-name {
   font-family: "PlusJakartaSans-ExtraBold";
   color: hsl(224, 21%, 14%);
+  cursor: pointer;
 }
 .main-news_list li .news-inform .author-name:hover {
   color: hsl(219, 85%, 26%);
 }
 .main-news_list li .news-inform .post-link {
   font-family: "PlusJakartaSans-ExtraBold";
+  cursor: pointer;
 }
 .main-news_list li .news-inform .post-link:hover {
   color: hsl(219, 85%, 26%);
@@ -152,6 +162,7 @@ main {
   padding: 0.05rem;
   border-radius: 0.4rem;
   border: 0.05rem solid hsl(210, 60%, 98%);
+  cursor: pointer;
 }
 .main-news_list li .relative-img:hover {
   border: 0.05rem solid hsl(211, 68%, 94%);

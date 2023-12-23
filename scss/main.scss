@@ -12,6 +12,7 @@ body{
     background: $neutral2;
     font-family: "PlusJakartaSans", sans-serif;
     color: $neutral6;
+    user-select: none;
 }
 
 main{
@@ -46,6 +47,7 @@ main{
 
     &_mark{
         margin: auto 0;
+        cursor: pointer;
 
         &:hover{
             color: $primary2;
@@ -73,7 +75,12 @@ main{
                 padding: 1rem;
                 border: 1px solid $neutral3;
                 border-radius: 0.25rem;
-
+                cursor: pointer;
+                
+                p{
+                    cursor: pointer;
+                }
+                
                 &:hover{
                     background: $neutral3;
                 }
@@ -96,6 +103,7 @@ main{
                 .author-name{
                     font-family: "PlusJakartaSans-ExtraBold";
                     color: $neutral7;
+                    cursor: pointer;
                     &:hover{
                         color: $primary2;
                     }
@@ -103,6 +111,7 @@ main{
 
                 .post-link{
                     font-family: "PlusJakartaSans-ExtraBold";
+                    cursor: pointer;
                     &:hover{
                         color: $primary2;
                     }
@@ -126,6 +135,7 @@ main{
                 padding: 0.05rem;
                 border-radius: 0.4rem;
                 border: 0.05rem solid $neutral2;
+                cursor: pointer;
                 &:hover{
                     border: 0.05rem solid $neutral3;
                 }
